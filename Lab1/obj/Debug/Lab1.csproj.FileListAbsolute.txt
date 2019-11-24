@@ -1,0 +1,7 @@
+E:\Prog\3_Semestr_(BKIT)\Lab1\bin\Debug\Lab1.exe.config
+E:\Prog\3_Semestr_(BKIT)\Lab1\bin\Debug\Lab1.exe
+E:\Prog\3_Semestr_(BKIT)\Lab1\bin\Debug\Lab1.pdb
+E:\Prog\3_Semestr_(BKIT)\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+E:\Prog\3_Semestr_(BKIT)\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+E:\Prog\3_Semestr_(BKIT)\Lab1\obj\Debug\Lab1.exe
+E:\Prog\3_Semestr_(BKIT)\Lab1\obj\Debug\Lab1.pdb
