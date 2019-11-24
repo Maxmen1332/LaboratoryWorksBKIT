@@ -22,6 +22,7 @@ namespace Lab2
             sc.Print();
             cir.Print();
 
+
             Console.ReadKey();
         }
     }

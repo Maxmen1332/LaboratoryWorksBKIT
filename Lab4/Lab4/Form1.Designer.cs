@@ -39,15 +39,14 @@
             this.Time_of_searching = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.Exit = new System.Windows.Forms.Button();
-            this.label_dist = new System.Windows.Forms.Label();
-            this.text_dist = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // reading_button
             // 
-            this.reading_button.Location = new System.Drawing.Point(41, 23);
+            this.reading_button.Location = new System.Drawing.Point(31, 19);
+            this.reading_button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.reading_button.Name = "reading_button";
-            this.reading_button.Size = new System.Drawing.Size(516, 52);
+            this.reading_button.Size = new System.Drawing.Size(387, 42);
             this.reading_button.TabIndex = 0;
             this.reading_button.Text = "Чтение файла";
             this.reading_button.UseVisualStyleBackColor = true;
@@ -56,33 +55,37 @@
             // Time_of_loading
             // 
             this.Time_of_loading.AutoSize = true;
-            this.Time_of_loading.Location = new System.Drawing.Point(470, 205);
+            this.Time_of_loading.Location = new System.Drawing.Point(352, 167);
+            this.Time_of_loading.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Time_of_loading.Name = "Time_of_loading";
-            this.Time_of_loading.Size = new System.Drawing.Size(44, 17);
+            this.Time_of_loading.Size = new System.Drawing.Size(34, 13);
             this.Time_of_loading.TabIndex = 1;
             this.Time_of_loading.Text = "00:00";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(337, 205);
+            this.label1.Location = new System.Drawing.Point(253, 167);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(115, 17);
+            this.label1.Size = new System.Drawing.Size(92, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Время загрузки:";
             // 
             // Field_for_input
             // 
-            this.Field_for_input.Location = new System.Drawing.Point(27, 98);
+            this.Field_for_input.Location = new System.Drawing.Point(20, 80);
+            this.Field_for_input.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Field_for_input.Name = "Field_for_input";
-            this.Field_for_input.Size = new System.Drawing.Size(384, 22);
+            this.Field_for_input.Size = new System.Drawing.Size(289, 20);
             this.Field_for_input.TabIndex = 3;
             // 
             // Search
             // 
-            this.Search.Location = new System.Drawing.Point(431, 93);
+            this.Search.Location = new System.Drawing.Point(339, 78);
+            this.Search.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Search.Name = "Search";
-            this.Search.Size = new System.Drawing.Size(126, 27);
+            this.Search.Size = new System.Drawing.Size(94, 22);
             this.Search.TabIndex = 4;
             this.Search.Text = "Искать";
             this.Search.UseVisualStyleBackColor = true;
@@ -91,27 +94,29 @@
             // Result_list
             // 
             this.Result_list.FormattingEnabled = true;
-            this.Result_list.ItemHeight = 16;
-            this.Result_list.Location = new System.Drawing.Point(27, 143);
+            this.Result_list.Location = new System.Drawing.Point(20, 116);
+            this.Result_list.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Result_list.Name = "Result_list";
-            this.Result_list.Size = new System.Drawing.Size(293, 212);
+            this.Result_list.Size = new System.Drawing.Size(221, 173);
             this.Result_list.TabIndex = 5;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(337, 241);
+            this.label2.Location = new System.Drawing.Point(253, 196);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 17);
+            this.label2.Size = new System.Drawing.Size(82, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "Время поиска:";
             // 
             // Time_of_searching
             // 
             this.Time_of_searching.AutoSize = true;
-            this.Time_of_searching.Location = new System.Drawing.Point(470, 241);
+            this.Time_of_searching.Location = new System.Drawing.Point(352, 196);
+            this.Time_of_searching.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Time_of_searching.Name = "Time_of_searching";
-            this.Time_of_searching.Size = new System.Drawing.Size(44, 17);
+            this.Time_of_searching.Size = new System.Drawing.Size(34, 13);
             this.Time_of_searching.TabIndex = 7;
             this.Time_of_searching.Text = "00:00";
             // 
@@ -121,39 +126,20 @@
             // 
             // Exit
             // 
-            this.Exit.Location = new System.Drawing.Point(376, 306);
+            this.Exit.Location = new System.Drawing.Point(282, 249);
+            this.Exit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(117, 49);
+            this.Exit.Size = new System.Drawing.Size(88, 40);
             this.Exit.TabIndex = 8;
             this.Exit.Text = "Выход";
             this.Exit.UseVisualStyleBackColor = true;
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
-            // label_dist
-            // 
-            this.label_dist.AutoSize = true;
-            this.label_dist.Location = new System.Drawing.Point(337, 143);
-            this.label_dist.Name = "label_dist";
-            this.label_dist.Size = new System.Drawing.Size(130, 17);
-            this.label_dist.TabIndex = 9;
-            this.label_dist.Text = "Макс. расстояние:";
-            // 
-            // text_dist
-            // 
-            this.text_dist.Location = new System.Drawing.Point(492, 140);
-            this.text_dist.Name = "text_dist";
-            this.text_dist.Size = new System.Drawing.Size(65, 22);
-            this.text_dist.TabIndex = 10;
-            this.text_dist.Text = "3";
-            this.text_dist.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(604, 396);
-            this.Controls.Add(this.text_dist);
-            this.Controls.Add(this.label_dist);
+            this.ClientSize = new System.Drawing.Size(453, 322);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.Time_of_searching);
             this.Controls.Add(this.label2);
@@ -163,8 +149,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Time_of_loading);
             this.Controls.Add(this.reading_button);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
-            this.Text = "Лабораторная работа №5";
+            this.Text = "Лабораторная работа №4";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -182,8 +169,6 @@
         private System.Windows.Forms.Label Time_of_searching;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button Exit;
-        private System.Windows.Forms.Label label_dist;
-        private System.Windows.Forms.TextBox text_dist;
     }
 }
 

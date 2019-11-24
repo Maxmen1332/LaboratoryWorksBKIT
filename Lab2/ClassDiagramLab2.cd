@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Lab2.Circle" Collapsed="true">
-    <Position X="5.5" Y="2.5" Width="1.5" />
+  <Class Name="Lab2.Circle">
+    <Position X="5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAACAAAAAAEAAAAAAAAAAAAAAAAAAAAAQAEAAA=</HashCode>
       <FileName>Circle.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Lab2.Figure" Collapsed="true">
+  <Class Name="Lab2.Figure">
     <Position X="6.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAAAA=</HashCode>
@@ -22,23 +22,23 @@
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Lab2.Rectangle" Collapsed="true">
-    <Position X="7.75" Y="2.5" Width="1.5" />
+  <Class Name="Lab2.Rectangle">
+    <Position X="8.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAQEQAAAAAAAAAAAAAAAAAAAAQAEAAA=</HashCode>
       <FileName>Rectangle.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="Lab2.Square" Collapsed="true">
-    <Position X="7.75" Y="4" Width="1.5" />
+  <Class Name="Lab2.Square">
+    <Position X="6.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Square.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="Lab2.IPrint" Collapsed="true">
+  <Interface Name="Lab2.IPrint">
     <Position X="10.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
