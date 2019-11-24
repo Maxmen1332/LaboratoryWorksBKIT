@@ -10,9 +10,13 @@ namespace Lab2
     {
         static void Main(string[] blahBlah)
         {
-            Rectangle rec = new Rectangle(4, 5);
-            Square sc = new Square(5);
-            Circle cir = new Circle(5);
+            Console.WriteLine("Введите параметры фигур \n");
+            double inn1, inn2;
+            inn1 = Convert.ToDouble(Console.ReadLine());
+            inn2= Convert.ToDouble(Console.ReadLine());
+            Rectangle rec = new Rectangle(inn1, inn2);
+            Square sc = new Square(inn2);
+            Circle cir = new Circle(inn2);
 
             rec.Print();
             sc.Print();
