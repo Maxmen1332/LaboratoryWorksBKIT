@@ -1,0 +1,10 @@
+F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\bin\Debug\Lab4.exe.config
+F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\bin\Debug\Lab4.exe
+F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\bin\Debug\Lab4.pdb
+F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\obj\Debug\Lab5.csprojAssemblyReference.cache
+F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\obj\Debug\Lab4.Form1.resources
+F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\obj\Debug\Lab5.csproj.GenerateResource.cache
+F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\obj\Debug\Lab4.exe
+F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\obj\Debug\Lab4.pdb
