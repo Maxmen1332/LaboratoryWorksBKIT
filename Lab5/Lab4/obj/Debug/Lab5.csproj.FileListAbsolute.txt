@@ -8,3 +8,13 @@ F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\obj\Debug\Lab5.csproj.GenerateResource.cach
 F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
 F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\obj\Debug\Lab4.exe
 F:\_\LaboratoryWorksBKIT-2\Lab5\Lab4\obj\Debug\Lab4.pdb
+E:\Prog\3_Semestr_(BKIT)\Lab5\Lab4\bin\Debug\Lab4.exe.config
+E:\Prog\3_Semestr_(BKIT)\Lab5\Lab4\bin\Debug\Lab4.exe
+E:\Prog\3_Semestr_(BKIT)\Lab5\Lab4\bin\Debug\Lab4.pdb
+E:\Prog\3_Semestr_(BKIT)\Lab5\Lab4\obj\Debug\Lab5.csprojAssemblyReference.cache
+E:\Prog\3_Semestr_(BKIT)\Lab5\Lab4\obj\Debug\Lab4.Form1.resources
+E:\Prog\3_Semestr_(BKIT)\Lab5\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+E:\Prog\3_Semestr_(BKIT)\Lab5\Lab4\obj\Debug\Lab5.csproj.GenerateResource.cache
+E:\Prog\3_Semestr_(BKIT)\Lab5\Lab4\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+E:\Prog\3_Semestr_(BKIT)\Lab5\Lab4\obj\Debug\Lab4.exe
+E:\Prog\3_Semestr_(BKIT)\Lab5\Lab4\obj\Debug\Lab4.pdb

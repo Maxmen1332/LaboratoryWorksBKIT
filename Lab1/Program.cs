@@ -8,50 +8,62 @@ namespace Lab1
 {
     class Program
     {
-        static void Main(string[] blahBlah)
+        static void Main(string[] args )
         {
             Console.Title = ("Крайчиков О.Д. ИУ5 31-Б");
-            double a, b, c;
-            Console.WriteLine("Введите коэффициеты через enter");
-
-
-
-            unsafe
+            double a=0, b=0, c=0;
+            if (args.Length == 0)
             {
-                void Inn(double* i)
+                Console.WriteLine("Введите коэффициеты через enter");
+
+
+
+                unsafe
                 {
-
-                    string buff;
-
-                Ass: buff = Console.ReadLine();
-
-                    for (int q = 0; q < buff.Length; q++)
+                    void Inn(double* i)
                     {
 
-                        if ((int)buff[q] < 43 || (int)buff[q] > 57)
+                        string buff;
+
+                    Ass: buff = Console.ReadLine();
+
+                        for (int q = 0; q < buff.Length; q++)
                         {
-                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("Введите строку заново \n");
-                            Console.ResetColor();
-                            goto Ass;
+
+                            if ((int)buff[q] < 43 || (int)buff[q] > 57)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine("Введите строку заново \n");
+                                Console.ResetColor();
+                                goto Ass;
+                            }
+
                         }
+
+
+
+                        if (buff.Contains("."))
+                            buff = buff.Replace(".", ",");
+                        if (buff.Contains(" "))
+                            buff = buff.Remove(buff.IndexOf(' '));
+
+                        (*i) = Convert.ToDouble(buff);
 
                     }
 
-
-
-                    if (buff.Contains("."))
-                        buff = buff.Replace(".", ",");
-                    if (buff.Contains(" "))
-                        buff = buff.Remove(buff.IndexOf(' '));
-
-                    (*i) = Convert.ToDouble(buff);
-
+                    Inn(&a);
+                    Inn(&b);
+                    Inn(&c);
                 }
+            }
 
-                Inn(&a);
-                Inn(&b);
-                Inn(&c);
+
+            if (args.Length == 3) {
+
+                a = Convert.ToDouble(args[0]);
+                b = Convert.ToDouble(args[1]);
+                c = Convert.ToDouble(args[2]);
+
             }
             Console.WriteLine($"Коэффициент А:{a}  Коэффициент В:{b}  Коэффициент С:{c}");
 
